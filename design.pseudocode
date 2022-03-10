@@ -1,5 +1,4 @@
-GET diameter
-CALCULATE untaxed_price = 0.75 + 1.00 + 0.5 * diameter
-CALCULATE HST = untaxed_price * 0.13
-CALCULATE total_cost = untaxed_price + HST
-SHOW total_cost
+GET first_number from user
+GET second_number from user
+CALCULATE answer_sum = first_number + second_number
+SHOW answer_sum
